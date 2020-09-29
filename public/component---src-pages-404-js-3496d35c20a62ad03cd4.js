@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{w2l6:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),r=t.n(n),l=t("7oih"),c=t("Wbzz"),o=t("EYWl");a.default=function(){return r.a.createElement(l.a,null,r.a.createElement(o.a,{title:"Dead End"}),r.a.createElement("main",{className:"error-page"},r.a.createElement("div",{className:"error-container"},r.a.createElement("h1",null,"oops it's a dead end"),r.a.createElement(c.a,{to:"/",className:"btn"},"back home"))))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-3496d35c20a62ad03cd4.js.map
