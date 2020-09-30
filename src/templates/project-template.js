@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import ReactPlayer from "react-player"
-
+import "../css/main.css"
 const ComponentName = ({ data }) => {
   const { title, description, url } = data.project
 
@@ -12,16 +12,18 @@ const ComponentName = ({ data }) => {
       <SEO title={title} description={description} />
       <section className="blog-template">
         <h1>{title}</h1>
-        <ReactPlayer
-          className="section-center margin-TB "
-          controls
-          width="900px"
-          height="506.25px"
-          url={url}
-        />
-        <div className="section-center">
+        <div className="player-wrapper margin-TB">
+          <ReactPlayer
+            className="section-center  sizevid "
+            width="100%"
+            height="100%"
+            controls
+            url={url}
+          />
+        </div>
+        <div className="section-center desc">
           <h3 style={{ textAlign: "center" }}>Description</h3>
-          <p style={{ fontSize: 24, textAlign: "justify" }}>{description}</p>
+          <p style={{ textAlign: "justify" }}>{description}</p>
         </div>
 
         <div className="section-center">
