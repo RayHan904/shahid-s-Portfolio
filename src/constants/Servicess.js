@@ -8,8 +8,7 @@ export default [
     id: 1,
     icon: <RiScissorsCutFill className="service-icon" />,
     title: "Video Editing",
-    text: ` Professional edits(Interviews/real estate/marketing) , health industry edits, food industry edits, clothing industry edits, mini commercials for social platforms, bike/cars vlogs and montages, youtube content edits and all gaming edits. 
-    skilled in making montages.`,
+    text: `Professional edits(Interviews/real estate/marketing, health/food/clothing industry, YouTube and gaming). Mini commercials for all social platforms, bike/cars vlogs and montages.`,
   },
   {
     id: 2,

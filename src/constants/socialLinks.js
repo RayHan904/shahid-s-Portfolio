@@ -11,27 +11,28 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.twitter.com",
+    url: "https://www.facebook.com/Mir-Shahid-Ali-234953016995042/",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/mir-shahid-ali-5a7023107/",
   },
   {
     id: 3,
     icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
-    url: "https://www.twitter.com",
+    url: "https://www.instagram.com/xmir.editzx/",
   },
   {
     id: 4,
     icon: <FaYoutubeSquare className="social-icon"></FaYoutubeSquare>,
-    url: "https://www.twitter.com",
+    url:
+      "https://www.youtube.com/channel/UC8ISpDLQyOiWeT0029kVqZw?view_as=subscriber",
   },
   {
     id: 5,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    url: "https://twitter.com/mirshahidali007",
   },
 ]
 const links = data.map(link => {

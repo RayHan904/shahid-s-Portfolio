@@ -11,7 +11,7 @@ const ComponentName = ({ data }) => {
     <Layout>
       <SEO title={title} description={description} />
       <section className="blog-template">
-        <h1>{title}</h1>
+        <h1 className="heading">{title}</h1>
         <div className="player-wrapper margin-TB">
           <ReactPlayer
             className="section-center  sizevid "
@@ -28,7 +28,7 @@ const ComponentName = ({ data }) => {
 
         <div className="section-center">
           <Link to="/projects" className="btn center-btn">
-            All Project
+            All Projects
           </Link>
         </div>
       </section>
